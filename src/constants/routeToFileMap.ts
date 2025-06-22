@@ -1,0 +1,17 @@
+export const routeToFileMap: Record<string, string> = {
+  Splash: 'SplashScreen.tsx',
+  Login: 'LoginScreen.tsx',
+  OTP: 'OTPScreen.tsx',
+  ServiceType: 'ServiceTypeScreen.tsx',
+  ShipperHome: 'ShipperHomeScreen.tsx',
+  DriverHome: 'DriverTabNavigator.tsx',
+  Loads: 'LoadsScreen.tsx',
+  LoadDetails: 'LoadDetailsScreen.tsx',
+  AddLoad: 'AddLoadScreen.tsx',
+  Notifications: 'NotificationsScreen.tsx',
+  Profile: 'ProfileScreen.tsx',
+  Map: 'MapScreen.tsx',
+  UserDetails: 'UserDetailsScreen.tsx',
+  KYC: 'KYCScreen.tsx',
+  UploadScreen: 'UploadScreen.tsx',
+};
